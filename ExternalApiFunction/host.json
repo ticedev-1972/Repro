@@ -1,0 +1,20 @@
+{
+  "ConnnectionStrings": {
+    "blobcontainer": null
+  },
+  "blobcontainername": "publicapidata",
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true
+      },
+      "enableDependencyTracking": true,
+      "enableLiveMetrics": true,
+      "enablePerformanceCountersCollection": true
+    },
+    "logLevel": {
+      "default": "Information"
+    }
+  }
+}
